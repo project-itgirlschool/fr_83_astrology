@@ -1,5 +1,13 @@
 /* Стили общие для всего документа html, body */
-
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../assets/fonts/Ubuntu-Regular.ttf") format("truetype");
+}
+body {
+  background-color: rgba(238, 233, 226, 1);
+  color: rgba(76, 81, 12, 1);
+  font-family: "Ubuntu";
+}
 /* Стили для header */
 
 /* Стили для экрана 1 Астролог Юлия Сапунова */
