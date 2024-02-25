@@ -20,7 +20,7 @@ body {
   width: 100%;
   grid-template-columns: 1fr 1fr;
   background-color:rgba(238, 233, 226, 1);
-  padding-left: 10em;
+  padding-left: 15em;
   margin-top: 5em;
   gap: 2em;
 }
@@ -30,9 +30,8 @@ body {
   font-weight: bold;
 }
 .service_option{
-  font-family: "Ubuntu";
   grid-column: 1;
-  font-size: 1,5em;
+  font-size: 1.2em;
  
 }
 
