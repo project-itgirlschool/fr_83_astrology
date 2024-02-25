@@ -15,6 +15,14 @@ body {
 /* Стили для экрана 2 Отзывы */
 
 /* Стили для экрана 3 Услуги */
+.service{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color:rgba(238, 233, 226, 1);
+}
+.service_option{
+  
+}
 
 /* Стили для экрана 4 Вебинары */
 .screen_4 {
