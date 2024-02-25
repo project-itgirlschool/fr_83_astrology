@@ -17,11 +17,23 @@ body {
 /* Стили для экрана 3 Услуги */
 .service{
   display: grid;
+  width: 100%;
   grid-template-columns: 1fr 1fr;
   background-color:rgba(238, 233, 226, 1);
+  padding-left: 10em;
+  margin-top: 5em;
+  gap: 2em;
+}
+.service_title{
+  grid-column: 1;
+  font-size: 2em;
+  font-weight: bold;
 }
 .service_option{
-  
+  font-family: "Ubuntu";
+  grid-column: 1;
+  font-size: 1,5em;
+ 
 }
 
 /* Стили для экрана 4 Вебинары */
