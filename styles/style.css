@@ -9,7 +9,32 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 /* Стили для header */
+header{
+  display: grid;
+  grid-template-areas: "logo menu";
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  height: 31px;
+  margin-top: 46px;
+  margin-left: 231px;
+}
 
+.logo{
+  grid-area: "logo";
+  width: 189px;
+  height: 31px;
+}
+
+.menu{
+  display: grid;
+  grid-area: "menu";
+  grid-template-columns: repeat(6, auto);
+  justify-content: space-between;
+  width: 600px;
+  height: 18px;
+  color: #9C8876;
+}
 /* Стили для экрана 1 Астролог Юлия Сапунова */
 
 /* Стили для экрана 2 Отзывы */
@@ -102,4 +127,24 @@ body {
 }
 /* Стили для footer */
 
+footer{
+  display: grid;
+  width: 1600px;
+  height: 240px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.all-symbols{
+  width: 100px;
+  height: 40px;
+  position: relative;
+}
+
+.policy{
+  font-weight: 700;
+  font-size: 14px;
+  color: #637054;
+  text-decoration: none;
+}
 /* Другие стили и классы */
