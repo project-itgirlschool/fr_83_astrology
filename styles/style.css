@@ -33,8 +33,6 @@ body {
   font-size: 1.3em;
   border-bottom: 1px solid rgba(102, 112, 85, 1);
   padding-top: 2em;
-  
-
 }
 .part1{
   grid-column: 1;
@@ -44,6 +42,18 @@ body {
   grid-column:2;
   padding-top: 3em;
   
+}
+.service__btn {
+  width: 16.2em;
+  height: 4.4em;
+  background-color: rgba(156, 136, 118, 0.48);
+  border-radius: 0.3em;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 5em;
+  margin-bottom: 2.25em;
 }
 
 /* Стили для экрана 4 Вебинары */
