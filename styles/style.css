@@ -48,6 +48,7 @@ body {
   width: 14em;
   height: 27em;
   margin-right: 1.9em;
+  border-radius: 10px, 0px, 0px, 10px;
 }
 .webs__content {
   display: flex;
@@ -99,6 +100,7 @@ body {
   line-height: 1.4em;
   color: rgba(99, 112, 84, 1);
   box-shadow: 0px 10px 25px 0px rgba(210, 177, 207, 0.3);
+  margin-top: 7.8em;
 }
 /* Стили для footer */
 
