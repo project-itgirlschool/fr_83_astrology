@@ -20,23 +20,29 @@ body {
   width: 100%;
   grid-template-columns: 1fr 1fr;
   background-color:rgba(238, 233, 226, 1);
-  
-  margin-top: 5em;
-  gap: 2em;
+  padding-left: 10em;
+
 }
 .service_title{
-  grid-column: 1;
+  padding-top:3em;
   font-size: 2.2em;
   font-weight: bold;
   padding-bottom: 1em;
 }
 .service_option{
-  grid-column: 1;
   font-size: 1.3em;
-  border-bottom: 1px solid rgba(102, 112, 85, 1)
+  border-bottom: 1px solid rgba(102, 112, 85, 1);
+  padding-top: 2em;
+  
+
+}
+.part1{
+  grid-column: 1;
 }
 .service_planet{
+  width:40%;
   grid-column:2;
+  padding-top: 3em;
   
 }
 
