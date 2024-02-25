@@ -7,6 +7,7 @@ body {
   background-color: rgba(238, 233, 226, 1);
   color: rgba(104, 114, 87, 1);
   font-family: "Ubuntu", sans-serif;
+  min-width: 80em;
 }
 /* Стили для header */
 
@@ -23,6 +24,7 @@ body {
   align-items: center;
   width: 100%;
   height: 125em;
+  padding: 0 1em;
 }
 .screen_4__title {
   font-family: "Ubuntu";
@@ -80,7 +82,7 @@ body {
   font-size: 1.1em;
   font-weight: 700;
   line-height: 1.4em;
-  color: rgba(76, 81, 12, 1);
+  color: rgba(99, 112, 84, 1);
 }
 .webs__btn_info {
   width: 15em;
