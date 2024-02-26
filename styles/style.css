@@ -7,7 +7,7 @@ body {
   background-color: rgba(238, 233, 226, 1);
   color: rgba(104, 114, 87, 1);
   font-family: "Ubuntu", sans-serif;
-  min-width: 80em;
+  min-width: 100em;
   overflow-x: hidden;
 }
 /* Стили для header */
@@ -19,6 +19,7 @@ body {
   object-fit: cover;
   background-position: center;
   width: 100em;
+  height: 52em;
   color: rgba(156, 136, 118, 1);
 }
 .astrologer_about {
@@ -29,27 +30,26 @@ body {
 .astrologer_info {
   width: 40em;
   height: 20em;
-  margin-left: 10em;
+  margin-left: 9em;
 }
 .screen_1__title {
   font-family: "Ubuntu";
   font-size: 3.1em;
   text-align: left;
+  margin-top: 3em;
 }
 .astrologer_descr1 {
   font-size: 1.1em;
   line-height: 1.6em;
   margin-top: 1.6em;
-  margin-right: 2.5em;
 }
 .astrologer_descr2 {
   font-size: 0.9em;
   line-height: 1.6em;
   margin-top: 1.4em;
-  margin-right: 2.5em;
 }
 .astrologer_ticker {
-  margin-top: 40em;
+  margin-top: 23em;
 }
 .webs__btn2 {
   width: 16.2em;
