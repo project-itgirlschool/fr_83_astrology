@@ -5,8 +5,9 @@
 }
 body {
   background-color: rgba(238, 233, 226, 1);
-  color: rgba(76, 81, 12, 1);
+  color: rgba(104, 114, 87, 1);
   font-family: "Ubuntu", sans-serif;
+  min-width: 80em;
 }
 /* Стили для header */
 
@@ -75,8 +76,12 @@ body {
 
 /* Стили для экрана 4 Вебинары */
 .screen_4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   height: 125em;
+  padding: 0 1em;
 }
 .screen_4__title {
   font-family: "Ubuntu";
@@ -88,11 +93,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 6.2em;
 }
 .webs__item {
   display: flex;
   width: 79em;
-  height: 26em;
+  height: 27em;
   border-radius: 0.6em;
   box-shadow: 0px 0px 60px 0px rgba(22, 38, 70, 0.1);
   margin-bottom: 1.9em;
@@ -101,6 +107,7 @@ body {
   width: 14em;
   height: 27em;
   margin-right: 1.9em;
+  border-radius: 10px, 0px, 0px, 10px;
 }
 .webs__content {
   display: flex;
@@ -112,7 +119,7 @@ body {
 .webs__descr {
   font-size: 1em;
   line-height: 1.6em;
-  margin-top: 2.7em;
+  margin-top: 2em;
   margin-right: 2.5em;
 }
 .webs__btn {
@@ -132,9 +139,28 @@ body {
   font-size: 1.1em;
   font-weight: 700;
   line-height: 1.4em;
-  color: rgba(76, 81, 12, 1);
+  color: rgba(99, 112, 84, 1);
 }
-
+.webs__btn_info {
+  width: 15em;
+  height: 4.4em;
+  background-color: rgba(238, 233, 226, 1);
+  border-radius: 0.3em;
+  box-shadow: 0px 10px 25px 0px rgba(210, 177, 207, 0.3);
+  background-size: cover;
+  border: 0.1em solid rgba(99, 112, 84, 1);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+#more-info {
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 700;
+  line-height: 1.4em;
+  color: rgba(99, 112, 84, 1);
+  box-shadow: 0px 10px 25px 0px rgba(210, 177, 207, 0.3);
+  margin-top: 7.8em;
+}
 /* Стили для footer */
 
 /* Другие стили и классы */
