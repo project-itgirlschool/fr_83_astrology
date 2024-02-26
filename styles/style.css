@@ -12,7 +12,64 @@ body {
 /* Стили для header */
 
 /* Стили для экрана 1 Астролог Юлия Сапунова */
-
+.screen_1 {
+  background-image: url("../assets/images/bg_screen1.svg");
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  height: 900px;
+  width: 100vw;
+}
+.astrologer_about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.astrologer_info {
+  width: 40em;
+  height: 20em;
+  margin-left: 10em;
+}
+.screen_1__title {
+  font-family: "Ubuntu";
+  font-size: 3.1em;
+  text-align: left;
+}
+.astrologer_descr1 {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  margin-top: 1.6em;
+  margin-right: 2.5em;
+}
+.astrologer_descr2 {
+  font-size: 0.9em;
+  line-height: 1.6em;
+  margin-top: 1.4em;
+  margin-right: 2.5em;
+}
+.astrologer_foto {
+  width: 40em;
+  height: 20em;
+  margin-top: 18em;
+  margin-left: 3em;
+  align-items: center;
+}
+.astrologer_ticker {
+  margin-top: 20em;
+}
+.webs__btn2 {
+  width: 16.2em;
+  height: 4.4em;
+  background-color: rgba(238, 233, 226, 1);
+  border-radius: 0.3em;
+  background-size: cover;
+  border: 0.2em solid #647256;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 1.5em;
+  margin-bottom: 2.25em;
+  margin-left: 2em;
+}
 /* Стили для экрана 2 Отзывы */
 
 /* Стили для экрана 3 Услуги */
