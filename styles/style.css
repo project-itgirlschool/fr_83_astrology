@@ -4,8 +4,8 @@
   src: url("../assets/fonts/Ubuntu-Regular.ttf") format("truetype");
 }
 body {
-  background-color: rgba(238, 233, 226, 1);
-  color: rgba(104, 114, 87, 1);
+  background-color: rgba(242, 242, 236, 1);
+  color: rgba(130, 126, 144, 1);
   font-family: "Ubuntu", sans-serif;
   min-width: em;
   overflow-x: hidden;
@@ -49,15 +49,15 @@ body {
   margin-top: 1.4em;
 }
 .astrologer_ticker {
-  margin-top: 23em;
+  margin-top: 30em;
 }
 .webs__btn2 {
   width: 16.2em;
   height: 4.4em;
-  background-color: rgba(238, 233, 226, 1);
+  background-color: rgba(242, 242, 236, 1);
   border-radius: 0.3em;
   background-size: cover;
-  border: 0.2em solid #647256;
+  border: 0.2em solid #3e5287;
   cursor: pointer;
   box-sizing: border-box;
   margin-top: 1.5em;
