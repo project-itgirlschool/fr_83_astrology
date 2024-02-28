@@ -7,7 +7,7 @@ body {
   background-color: rgba(238, 233, 226, 1);
   color: rgba(104, 114, 87, 1);
   font-family: "Ubuntu", sans-serif;
-  min-width: 74em;
+  min-width: em;
   overflow-x: hidden;
 }
 /* Стили для header */
