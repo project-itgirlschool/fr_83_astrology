@@ -99,16 +99,16 @@ body {
   margin-right: 2.5em;
 }
 .webs__btn {
-  width: 16.2em;
+  width: 15em;
   height: 4.4em;
-  background-color: rgba(156, 136, 118, 0.48);
+  background-color: rgba(238, 233, 226, 1);
   border-radius: 0.3em;
+  box-shadow: 0px 10px 25px 0px rgba(210, 177, 207, 0.3);
   background-size: cover;
-  border: none;
+  border: 0.1em solid rgba(99, 112, 84, 1);
   cursor: pointer;
   box-sizing: border-box;
-  margin-top: 1.5em;
-  margin-bottom: 2.25em;
+  transition: all 2s ease-out;
 }
 #submit {
   text-decoration: none;
