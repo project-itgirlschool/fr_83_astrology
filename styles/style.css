@@ -68,22 +68,28 @@ body {
 .screen_2 {
   width: 100vw;
   height: 58em;
-  color: rgba(130, 126, 144, 1);
+  color: rgba(62, 82, 135, 1);
 }
 .screen_2__title {
-  font-family: "Ubuntu";
-  font-size: 3.1em;
-  margin-top: 7.8em;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2em;
+  margin-top: 7em;
   text-align: center;
   text-transform: uppercase;
+}
+.screen_2__subtitle {
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration-line: overline;
 }
 #slider {
   position: relative;
   text-align: center;
-  top: 10px;
+  top: 1em;
 }
 #slider {
   margin: 0 auto;
+  background-color: rgba(238, 233, 226, 1);
 }
 #slider article {
   width: 20%;
@@ -101,7 +107,7 @@ article img {
   width: 100%;
 }
 #desktop:checked ~ #slider {
-  max-width: 80em;
+  max-width: 87em;
 }
 #switch1:checked ~ #controls label:nth-child(3),
 #switch2:checked ~ #controls label:nth-child(1),
@@ -157,16 +163,16 @@ a {
 }
 #active label:hover {
   background: rgba(156, 136, 118, 0.48);
-  border-color: #777 !important;
 }
 #switch1:checked ~ #active label:nth-child(1),
 #switch2:checked ~ #active label:nth-child(2),
 #switch3:checked ~ #active label:nth-child(3) {
-  background: rgba(130, 126, 144, 1);
-  border-color: rgba(130, 126, 144, 1) !important;
+  background: rgba(62, 82, 135, 1);
+  border-color: rgba(62, 82, 135, 1) !important;
 }
 #slides .image {
-  transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 3s cubic-bezier(0.77, 0, 0.175, 1);
+  transition-delay: 0.2s;
 }
 #controls label:hover {
   opacity: 0.6;
