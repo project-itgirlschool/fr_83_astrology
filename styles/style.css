@@ -73,6 +73,7 @@ body {
 .screen_2__title {
   font-family: "Ubuntu", sans-serif;
   font-size: 2em;
+  letter-spacing: 0.1em;
   margin-top: 7em;
   text-align: center;
   text-transform: uppercase;
@@ -114,20 +115,20 @@ article img {
 #switch3:checked ~ #controls label:nth-child(2) {
   background: url("/assets/images/slider_1.svg") no-repeat;
   float: left;
-  margin: 0 0 0 -84px;
+  margin: 0 0 0 -4em;
   display: block;
-  height: 68px;
-  width: 68px;
+  height: 4.2em;
+  width: 4.2em;
 }
 #switch1:checked ~ #controls label:nth-child(2),
 #switch2:checked ~ #controls label:nth-child(3),
 #switch3:checked ~ #controls label:nth-child(1) {
   background: url("/assets/images/slider_2.svg") no-repeat;
   float: right;
-  margin: 0 -84px 0 0;
+  margin: 0 -7em 0 0;
   display: block;
-  height: 68px;
-  width: 68px;
+  height: 4.2em;
+  width: 4.2em;
 }
 label,
 a {
@@ -148,13 +149,13 @@ a {
 #controls {
   margin: -25% 0 0 0;
   width: 100%;
-  height: 50px;
+  height: 3em;
 }
 #active label {
   border-radius: 10px;
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 1em;
+  height: 1em;
   background: #bbb;
 }
 #active {
@@ -171,8 +172,8 @@ a {
   border-color: rgba(62, 82, 135, 1) !important;
 }
 #slides .image {
-  transition: all 3s cubic-bezier(0.77, 0, 0.175, 1);
-  transition-delay: 0.2s;
+  transition: all 2s cubic-bezier(0.77, 0, 0.175, 1);
+  transition-delay: 0.1s;
 }
 #controls label:hover {
   opacity: 0.6;
@@ -232,15 +233,23 @@ a {
 }
 .screen_4__title {
   font-family: "Ubuntu";
-  font-size: 3.1em;
-  margin-top: 6.2em;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  color: rgba(62, 82, 135, 1);
+  margin-top: 6em;
   text-align: center;
+}
+.screen_4__subtitle {
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration-line: overline;
+  color: rgba(62, 82, 135, 1);
 }
 .screen_4__webs {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 6.2em;
+  margin-top: 6em;
 }
 .webs__item {
   display: flex;
@@ -259,14 +268,18 @@ a {
 .webs__content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .webs__title {
   font-size: 1.4em;
+
+  color: rgba(62, 82, 135, 1);
+  margin-top: 2em;
 }
 .webs__descr {
   font-size: 1em;
-  line-height: 1.6em;
-  margin-top: 2em;
+  line-height: 1.5em;
+  margin-top: 1em;
   margin-right: 2.5em;
 }
 .webs__btn {
@@ -278,9 +291,9 @@ a {
   border: none;
   cursor: pointer;
   box-sizing: border-box;
-  margin-top: 1.5em;
+  margin-top: 1em;
   margin-bottom: 2.25em;
-  transition: all 2s ease-out;
+  transition: all 3s ease-out;
 }
 #submit {
   text-decoration: none;
