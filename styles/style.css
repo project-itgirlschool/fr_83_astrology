@@ -16,7 +16,7 @@ header{
   grid-template-areas: "logo menu";
   justify-content: space-between;
   align-items: center;
-  width: 900px;
+  width: 1230px;
   height: 31px;
   margin-top: 46px;
   margin-left: 231px;
@@ -32,11 +32,24 @@ header{
   display: grid;
   grid-area: "menu";
   grid-template-columns: repeat(6, auto);
-  justify-content: space-between;
-  width: 600px;
+  width: 850px;
   height: 18px;
+  list-style: none;
+}
+
+nav ul li a {
+  display: grid;
+  justify-content: space-between;
+  font-size: 18px;
+  text-decoration: none;
+  list-style: none;
   color: #9C8876;
 }
+
+nav ul li a:hover{
+  color: #827E90;
+}
+
 /* Стили для экрана 1 Астролог Юлия Сапунова */
 .screen_1 {
   background-image: url("../assets/images/bg_screen1.svg");
@@ -235,22 +248,58 @@ header{
 
 footer{
   display: grid;
-  width: 1600px;
+  width: 100vw;
   height: 240px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  margin-top: 200px;
+}
+
+.contacts_divers{
+  display: grid;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 90px;
+  grid-template-columns: repeat(3, auto);
+  color: #382D62;
+}
+
+.number,
+.mail_name{
+  font-weight: 600;
+  font-size: larger;
 }
 
 .all-symbols{
   width: 100px;
   height: 40px;
   position: relative;
+  color: #382D62;
+}
+
+hr {
+  border: none; /* Убираем границу */
+  background-color: #382D62;
+  height: 1px; /* Толщина линии */
+  opacity: 30%;
+}
+
+.rules{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rights{
+  color: #382D62;
 }
 
 .policy{
   font-weight: 700;
-  font-size: 14px;
-  color: #637054;
+  font-size: 1em;
+  color: #382D62;
   text-decoration: none;
 }
+
 /* Другие стили и классы */
