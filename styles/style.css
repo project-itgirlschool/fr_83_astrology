@@ -448,4 +448,11 @@ hr {
   text-decoration: none;
 }
 
+.all-symbols{
+  display: grid;
+  width: 108px;
+  height: 40px;
+  
+}
+
 /* Другие стили и классы */
