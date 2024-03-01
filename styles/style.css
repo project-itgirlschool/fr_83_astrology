@@ -47,7 +47,7 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-  color: #827E90;
+  color: rgba(62, 82, 135, 1);
 }
 
 /* Стили для экрана 1 Астролог Юлия Сапунова */
@@ -445,6 +445,13 @@ hr {
   font-size: 1em;
   color: #382D62;
   text-decoration: none;
+}
+
+.all-symbols{
+  display: grid;
+  width: 108px;
+  height: 40px;
+  
 }
 
 /* Другие стили и классы */
