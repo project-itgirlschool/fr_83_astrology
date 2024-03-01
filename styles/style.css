@@ -21,7 +21,6 @@ body {
   grid-template-columns: 1fr 1fr;
   background-color:rgba(238, 233, 226, 1);
   padding-left: 15em;
-
 }
 .service_title{
   padding-top:3em;
@@ -36,6 +35,7 @@ body {
 }
 .part1{
   grid-column: 1;
+  padding-right: 5em;
 }
 .service_planet{
   width:40%;
