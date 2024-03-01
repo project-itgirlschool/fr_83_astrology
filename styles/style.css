@@ -195,6 +195,7 @@ a {
   border-bottom: 1px solid rgba(102, 112, 85, 1);
   padding-top: 2em;
 }
+
 .part1 {
   grid-column: 1;
   padding-right: 5em;
@@ -225,6 +226,7 @@ a {
   line-height: 1.4em;
   color: rgba(99, 112, 84, 1);
 }
+
 .service__btn:hover,
 .service__btn:focus {
   background-color: rgba(238, 233, 226, 1);
