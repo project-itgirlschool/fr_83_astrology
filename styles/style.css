@@ -89,6 +89,20 @@ nav ul li a:hover {
 .astrologer_ticker {
   margin-top: 30em;
 }
+.webs__btn1 {
+  width: 15em;
+  height: 4.4em;
+  background-color: #9c88767a;
+  border-radius: 0.3em;
+  border: none;
+  box-shadow: 0px 10px 25px 0px #d2b1cf4d;
+  background-size: cover;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 1em;
+  margin-bottom: 2.25em;
+  transition: all 3s ease-out;
+}
 .webs__btn2 {
   width: 16.2em;
   height: 4.4em;
