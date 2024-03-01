@@ -7,7 +7,7 @@ body {
   background-color: rgba(242, 242, 236, 1);
   color: #827e90;
   font-family: "Ubuntu", sans-serif;
-  min-width: em;
+  min-width: 80em;
   overflow-x: hidden;
 }
 /* Стили для header */
@@ -225,6 +225,8 @@ a {
   font-size: 2.2em;
   font-weight: bold;
   padding-bottom: 1em;
+  color: rgba(62, 82, 135, 1);
+
 }
 .service_option {
   font-size: 1.3em;
@@ -233,6 +235,7 @@ a {
 }
 .part1 {
   grid-column: 1;
+  padding-right: 5em;
 }
 .service_planet {
   width: 40%;
@@ -253,12 +256,16 @@ a {
   margin-bottom: 2.25em;
   transition: all 2s ease-out;
 }
-#submit {
+#button_service {
   text-decoration: none;
   font-size: 1.1em;
   font-weight: 700;
   line-height: 1.4em;
-  color: rgba(99, 112, 84, 1);
+  color: rgba(130, 126, 144, 1);
+
+}
+#button_service:hover{
+  color:#3e5287;
 }
 .service__btn:hover,
 .service__btn:focus {
