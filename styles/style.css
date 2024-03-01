@@ -5,13 +5,13 @@
 }
 body {
   background-color: rgba(242, 242, 236, 1);
-  color: rgba(130, 126, 144, 1);
+  color: #827e90;
   font-family: "Ubuntu", sans-serif;
-  min-width: em;
+  min-width: 80em;
   overflow-x: hidden;
 }
 /* Стили для header */
-header{
+header {
   display: grid;
   grid-template-areas: "logo menu";
   justify-content: space-between;
@@ -22,13 +22,13 @@ header{
   margin-left: 231px;
 }
 
-.logo{
+.logo {
   grid-area: "logo";
   width: 189px;
   height: 31px;
 }
 
-.menu{
+.menu {
   display: grid;
   grid-area: "menu";
   grid-template-columns: repeat(6, auto);
@@ -43,11 +43,11 @@ nav ul li a {
   font-size: 18px;
   text-decoration: none;
   list-style: none;
-  color: #9C8876;
+  color: #9c8876;
 }
 
-nav ul li a:hover{
-  color: rgba(62, 82, 135, 1);
+nav ul li a:hover {
+  color: #827e90;
 }
 
 /* Стили для экрана 1 Астролог Юлия Сапунова */
@@ -89,6 +89,20 @@ nav ul li a:hover{
 .astrologer_ticker {
   margin-top: 30em;
 }
+.webs__btn1 {
+  width: 15em;
+  height: 4.4em;
+  background-color: #9c88767a;
+  border-radius: 0.3em;
+  border: none;
+  box-shadow: 0px 10px 25px 0px #d2b1cf4d;
+  background-size: cover;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 1em;
+  margin-bottom: 2.25em;
+  transition: all 3s ease-out;
+}
 .webs__btn2 {
   width: 16.2em;
   height: 4.4em;
@@ -106,29 +120,21 @@ nav ul li a:hover{
 .screen_2 {
   width: 100vw;
   height: 58em;
-  color: rgba(62, 82, 135, 1);
 }
 .screen_2__title {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 2em;
-  letter-spacing: 0.1em;
-  margin-top: 7em;
+  font-size: 3.1em;
+  font-weight: 700;
+  margin-top: 3em;
   text-align: center;
   text-transform: uppercase;
-}
-.screen_2__subtitle {
-  font-size: 1.5em;
-  text-align: center;
-  text-decoration-line: overline;
 }
 #slider {
   position: relative;
   text-align: center;
-  top: 1em;
 }
 #slider {
   margin: 0 auto;
-  background-color: rgba(238, 233, 226, 1);
+  background-color: #f2f2ec;
 }
 #slider article {
   width: 20%;
@@ -194,20 +200,20 @@ a {
   display: inline-block;
   width: 1em;
   height: 1em;
-  background: #bbb;
+  background: #9c88767a;
 }
 #active {
   margin: 23% 0 0;
   text-align: center;
 }
 #active label:hover {
-  background: rgba(156, 136, 118, 0.48);
+  background: #9c88767a;
 }
 #switch1:checked ~ #active label:nth-child(1),
 #switch2:checked ~ #active label:nth-child(2),
 #switch3:checked ~ #active label:nth-child(3) {
-  background: rgba(62, 82, 135, 1);
-  border-color: rgba(62, 82, 135, 1) !important;
+  background: #827e90;
+  border-color: #382d62 !important;
 }
 #slides .image {
   transition: all 2s cubic-bezier(0.77, 0, 0.175, 1);
@@ -225,7 +231,7 @@ a {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr 1fr;
-  background-color:rgba(238, 233, 226, 1);
+  background-color: rgba(238, 233, 226, 1);
   padding-left: 15em;
 }
 .service_title {
@@ -233,6 +239,7 @@ a {
   font-size: 2.2em;
   font-weight: bold;
   padding-bottom: 1em;
+  color: rgba(62, 82, 135, 1);
 }
 .service_option {
   font-size: 1.3em;
@@ -241,6 +248,7 @@ a {
 }
 .part1 {
   grid-column: 1;
+  padding-right: 5em;
 }
 .service_planet {
   width: 40%;
@@ -261,12 +269,15 @@ a {
   margin-bottom: 2.25em;
   transition: all 2s ease-out;
 }
-#submit {
+#button_service {
   text-decoration: none;
   font-size: 1.1em;
   font-weight: 700;
   line-height: 1.4em;
-  color: rgba(99, 112, 84, 1);
+  color: rgba(130, 126, 144, 1);
+}
+#button_service:hover {
+  color: #3e5287;
 }
 .service__btn:hover,
 .service__btn:focus {
@@ -274,7 +285,6 @@ a {
   border: 0.1em solid rgba(99, 112, 84, 1);
   box-shadow: 0px 10px 25px 0px rgba(210, 177, 207, 0.3);
 }
-
 
 /* Стили для экрана 4 Вебинары */
 .screen_4 {
@@ -286,31 +296,25 @@ a {
   padding: 0 1em;
 }
 .screen_4__title {
-  font-family: "Ubuntu";
-  font-size: 2em;
-  letter-spacing: 0.1em;
-  color: rgba(62, 82, 135, 1);
-  margin-top: 6em;
+  font-size: 3.1em;
+  font-weight: 700;
   text-align: center;
-}
-.screen_4__subtitle {
-  font-size: 1.5em;
-  text-align: center;
-  text-decoration-line: overline;
-  color: rgba(62, 82, 135, 1);
+  text-transform: uppercase;
+  margin-top: 3em;
 }
 .screen_4__webs {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 6em;
+  margin-top: 3em;
+  color: #827e90;
 }
 .webs__item {
   display: flex;
   width: 79em;
   height: 27em;
   border-radius: 0.6em;
-  box-shadow: 0px 0px 60px 0px rgba(22, 38, 70, 0.1);
+  box-shadow: 0px 0px 60px 0px #1626461a;
   margin-bottom: 1.9em;
 }
 .webs__img {
@@ -322,16 +326,16 @@ a {
 .webs__content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .webs__title {
   font-size: 1.4em;
-
-  color: rgba(62, 82, 135, 1);
+  font-weight: 500;
   margin-top: 2em;
 }
 .webs__descr {
   font-size: 1em;
+  font-weight: 400;
   line-height: 1.5em;
   margin-top: 1em;
   margin-right: 2.5em;
@@ -339,11 +343,11 @@ a {
 .webs__btn {
   width: 15em;
   height: 4.4em;
-  background-color: rgba(238, 233, 226, 1);
+  background-color: #9c88767a;
   border-radius: 0.3em;
-  box-shadow: 0px 10px 25px 0px rgba(210, 177, 207, 0.3);
+  border: none;
+  box-shadow: 0px 10px 25px 0px #d2b1cf4d;
   background-size: cover;
-  border: 0.1em solid rgba(99, 112, 84, 1);
   cursor: pointer;
   box-sizing: border-box;
   margin-top: 1em;
@@ -355,22 +359,22 @@ a {
   font-size: 1.1em;
   font-weight: 700;
   line-height: 1.4em;
-  color: rgba(130, 126, 144, 1);
+  color: #827e90;
 }
 .webs__btn:hover,
 .webs__btn:focus {
-  background-color: rgba(238, 233, 226, 1);
-  border: 0.1em solid rgba(130, 126, 144, 1);
-  box-shadow: 0px 10px 25px 0px rgba(210, 177, 207, 0.3);
+  background-color: #f2f2ec;
+  border: 0.1em solid #827e90;
+  box-shadow: 0px 10px 25px 0px #d2b1cf4d;
 }
 .webs__btn_info {
   width: 15em;
   height: 4.4em;
-  background-color: rgba(238, 233, 226, 1);
+  background-color: #f2f2ec;
   border-radius: 0.3em;
-  box-shadow: 0px 10px 25px 0px rgba(210, 177, 207, 0.3);
+  box-shadow: 0px 10px 25px 0px #d2b1cf4d;
   background-size: cover;
-  border: 0.1em solid rgba(130, 126, 144, 1);
+  border: 0.1em solid #827e90;
   cursor: pointer;
   box-sizing: border-box;
   transition: all 2s ease-out;
@@ -380,18 +384,18 @@ a {
   font-size: 1.1em;
   font-weight: 700;
   line-height: 1.4em;
-  color: rgba(130, 126, 144, 1);
-  box-shadow: 0px 10px 25px 0px rgba(210, 177, 207, 0.3);
+  color: #827e90;
+  box-shadow: 0px 10px 25px 0px #d2b1cf4d;
   margin-top: 7.8em;
 }
 .webs__btn_info:hover,
 .webs__btn_info:focus {
-  background-color: rgba(156, 136, 118, 0.48);
+  background-color: #9c88767a;
 }
 
 /* Стили для footer */
 
-footer{
+footer {
   display: grid;
   width: 100vw;
   height: 240px;
@@ -400,50 +404,50 @@ footer{
   margin-top: 200px;
 }
 
-.contacts_divers{
+.contacts_divers {
   display: grid;
   justify-content: space-evenly;
   width: 100vw;
   height: 90px;
   grid-template-columns: repeat(3, auto);
-  color: #382D62;
+  color: #382d62;
 }
 
 .number,
-.mail_name{
+.mail_name {
   font-weight: 600;
   font-size: larger;
 }
 
-.all-symbols{
+.all-symbols {
   width: 100px;
   height: 40px;
   position: relative;
-  color: #382D62;
+  color: #382d62;
 }
 
 hr {
   border: none; /* Убираем границу */
-  background-color: #382D62;
+  background-color: #382d62;
   height: 1px; /* Толщина линии */
   opacity: 30%;
 }
 
-.rules{
+.rules {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.rights{
-  color: #382D62;
+.rights {
+  color: #382d62;
 }
 
-.policy{
+.policy {
   font-weight: 700;
   font-size: 1em;
-  color: #382D62;
+  color: #382d62;
   text-decoration: none;
 }
 
@@ -451,7 +455,7 @@ hr {
   display: grid;
   width: 108px;
   height: 40px;
-  
+
 }
 
 /* Другие стили и классы */
