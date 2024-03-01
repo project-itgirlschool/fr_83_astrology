@@ -243,6 +243,7 @@ a {
 }
 .part1 {
   grid-column: 1;
+  padding-right: 5em;
 }
 .service_planet {
   width: 40%;
