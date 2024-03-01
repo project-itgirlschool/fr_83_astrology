@@ -211,26 +211,24 @@ a {
 #controls label {
   transition: opacity 0.2s ease-out;
 }
-
 /* Стили для экрана 3 Услуги */
 .service {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr 1fr;
-  background-color: rgba(238, 233, 226, 1);
+  background-color: #f2f2ec;
   padding-left: 15em;
 }
 .service_title {
-  padding-top: 3em;
-  font-size: 2.2em;
+  padding-top: 1em;
+  font-size: 3.1em;
   font-weight: bold;
   padding-bottom: 1em;
-  color: rgba(62, 82, 135, 1);
-
+  color: #827e90;
 }
 .service_option {
   font-size: 1.3em;
-  border-bottom: 1px solid rgba(102, 112, 85, 1);
+  border-bottom: 0.1em solid #9c88767a;
   padding-top: 2em;
 }
 .part1 {
@@ -242,11 +240,10 @@ a {
   grid-column: 2;
   padding-top: 3em;
 }
-
 .service__btn {
   width: 16.2em;
   height: 4.4em;
-  background-color: rgba(156, 136, 118, 0.48);
+  background-color: #9c88767a;
   border-radius: 0.3em;
   background-size: cover;
   border: none;
@@ -261,19 +258,17 @@ a {
   font-size: 1.1em;
   font-weight: 700;
   line-height: 1.4em;
-  color: rgba(130, 126, 144, 1);
-
+  color: #827e90;
 }
-#button_service:hover{
-  color:#3e5287;
+#button_service:hover {
+  color: #3e5287;
 }
 .service__btn:hover,
 .service__btn:focus {
-  background-color: rgba(238, 233, 226, 1);
-  border: 0.1em solid rgba(99, 112, 84, 1);
-  box-shadow: 0px 10px 25px 0px rgba(210, 177, 207, 0.3);
+  background-color: #f2f2ec;
+  border: 0.1em solid #9c88767a;
+  box-shadow: 0px 10px 25px 0px #d2b1cf4d;
 }
-
 /* Стили для экрана 4 Вебинары */
 .screen_4 {
   display: flex;
