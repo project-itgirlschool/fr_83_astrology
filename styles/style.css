@@ -149,7 +149,7 @@ nav ul li a:hover {
   overflow: hidden;
 }
 article img {
-  width: 100%;
+  width: 80%;
 }
 #desktop:checked ~ #slider {
   max-width: 87em;
@@ -178,7 +178,7 @@ label,
 a {
   cursor: pointer;
 }
-.screen_2__feedback input {
+.screen_2__reviews input {
   display: none;
 }
 #switch1:checked ~ #slides .image {
@@ -448,11 +448,10 @@ hr {
   text-decoration: none;
 }
 
-.all-symbols{
+.all-symbols {
   display: grid;
   width: 108px;
   height: 40px;
-  
 }
 
 /* Другие стили и классы */
