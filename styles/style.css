@@ -61,6 +61,8 @@ nav ul li a:hover {
   color: rgba(156, 136, 118, 1);
 }
 .astrologer_about {
+  position: relative;
+  z-index: 100;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -149,7 +151,7 @@ nav ul li a:hover {
   overflow: hidden;
 }
 article img {
-  width: 100%;
+  width: 80%;
 }
 #desktop:checked ~ #slider {
   max-width: 87em;
@@ -178,7 +180,7 @@ label,
 a {
   cursor: pointer;
 }
-.screen_2__feedback input {
+.screen_2__reviews input {
   display: none;
 }
 #switch1:checked ~ #slides .image {
@@ -278,6 +280,8 @@ a {
   color: #3e5287;
 }
 .service__btn:hover,
+.webs__btn1:hover,
+.webs__btn2:hover,
 .service__btn:focus {
   background-color: #f2f2ec;
   border: 0.1em solid #9c88767a;
@@ -448,11 +452,10 @@ hr {
   text-decoration: none;
 }
 
-.all-symbols{
+.all-symbols {
   display: grid;
   width: 108px;
   height: 40px;
-
 }
 
 /* Другие стили и классы */
