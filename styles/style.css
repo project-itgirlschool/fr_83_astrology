@@ -412,19 +412,13 @@ footer {
   height: 90px;
   grid-template-columns: repeat(3, auto);
   color: #382d62;
+  align-content: flex-start;
 }
 
 .number,
 .mail_name {
   font-weight: 600;
   font-size: larger;
-}
-
-.all-symbols {
-  width: 100px;
-  height: 40px;
-  position: relative;
-  color: #382d62;
 }
 
 hr {
@@ -457,5 +451,38 @@ hr {
   width: 108px;
   height: 40px;
 }
+
+.all-symbols {
+  display: flex;
+  justify-content: center;
+  width: 175px;
+  height: 40px;
+  position: relative;
+  color: #382d62;
+}
+
+.icon_1{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  z-index: 2;
+}
+
+.icon_2{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  z-index: 1;
+  right: 32px;
+}
+
+.icon_3{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: -3px;
+  z-index: 0;
+}
+
 
 /* Другие стили и классы */
