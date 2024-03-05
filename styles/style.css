@@ -110,9 +110,22 @@ nav ul li a:hover {
   border: 0.1em solid #3e5287;
   cursor: pointer;
   box-sizing: border-box;
-  margin-top: 1.5em;
+  margin-top: 1em;
   margin-bottom: 2.25em;
   margin-left: 2em;
+  transition: all 3s ease-out;
+}
+.webs__btn1:hover,
+.webs__btn1:focus {
+  background-color: #f2f2ec;
+  border: 0.1em solid #827e90;
+  box-shadow: 0px 10px 25px 0px #d2b1cf4d;
+}
+.webs__btn2:hover,
+.webs__btn2:focus {
+  background-color: #9c88767a;
+  border: 0.1em solid #827e90;
+  box-shadow: 0px 10px 25px 0px #d2b1cf4d;
 }
 /* Стили для экрана 2 Отзывы */
 .screen_2 {
@@ -276,8 +289,6 @@ a {
   color: #3e5287;
 }
 .service__btn:hover,
-.webs__btn1:hover,
-.webs__btn2:hover,
 .service__btn:focus {
   background-color: #f2f2ec;
   border: 0.1em solid #9c88767a;
