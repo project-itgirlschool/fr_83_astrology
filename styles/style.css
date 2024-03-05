@@ -108,6 +108,7 @@ nav ul li a:hover {
   border-radius: 0.3em;
   background-size: cover;
   border: 0.1em solid #3e5287;
+  box-shadow: 0px 10px 25px 0px #d2b1cf4d;
   cursor: pointer;
   box-sizing: border-box;
   margin-top: 1em;
