@@ -2,55 +2,124 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1600">
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Astrologist Julia Sapunova</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/icon_yellow_stars.svg"
+      type="image/svg"
+    />
   </head>
   <body>
     <header>
-      <div>Астролог</div>
+      <img class="logo" src="./assets/images/logo.svg" alt="logo"/>
+        <nav>
+          <ul class="menu">
+              <li><a href="#services">Услуги</a></li>
+              <li><a href="#about_me">Об астрологе</a></li>
+              <li><a href="#webs">Вебинары</a></li>
+              <li><a href="#reviews">Отзывы</a></li>
+              <li><a href="#contacts">Контакты</a></li>
+          </ul>
+      </nav>
     </header>
     <main>
       <!-- Экран 1 Астролог Юлия Сапунова -->
-      <div class="screen_1">
+      <div id="about_me" class="screen_1">
         <div class="astrologer_about">
           <div class="astrologer_info">
             <h1 class="screen_1__title">АСТРОЛОГ <br>ЮЛИЯ САПУНОВА</br></h1>
-            <p class="astrologer_descr1">Астролог, астропсихолог, преподаватель онлайн курса по Астропсихологии с нуля, 
-            автор тренингов по финансовой астрологии, астрологии отношений, 
-            интенсива по раскрытию женственности и стройности.</p>
-            <p class="astrologer_descr2">Обучаюсь более 4-х лет, не останавливаясь и постоянно повышаю свою квалификацию, 
-            получила более сотни отзывов довольных клиентов и учеников. 
-            Доношу сложную информацию максимально простым языком, 
-            поэтому у моих учеников вопросов практически не возникает. 
-            На обучения разбираем карты самих учеников сразу на практике, 
-            чтобы информация усваивалась гораздо легче.</p>
+            <p class="astrologer_descr1">Здравствуйте. Меня зовут Юлия Сапунова. Я практикующий астролог, астропсихолог и преподаватель курса по астропсихологии. Обучаюсь <br>науке уже более четырех лет, не останавливаюсь на достигнутом и постоянно совершенствую свои знания в области астрологии. </p>
+            <p class="astrologer_descr2">Для вас я разработала несколько форматов обучения, которые помогут вам открыть и развить сильные стороны вашей личности, узнать свое предназначение в жизни и обрести состояние душевного и финансового благополучия. 
+              Программы обучения (онлайн-курс по обучению астропсихологии с нуля, тренинг по финансовой астрологии, астрологии отношений и интенсив по раскрытию женственности и обретению уверенности в себе) –  практико-ориентированные: в процессе обучения вы разберете свои  астрологические карты и научитесь их толковать. Основное преимущество такого обучения состоит в том, что сложная информация доносится интересно и максимально простым и доступным языком.</p>
           <div>
-          <button class="webs__btn"><a href="#" id="submit" target="_blank">Заказать консультацию</a></button>
-          <button class="webs__btn2"><a href="#" id="submit" target="_blank">Выбрать курс</a></button>
+          <button class="webs__btn1"><a href="https://wa.me/+79290432129" id="submit" target="_blank">Заказать консультацию</a></button>
+          <button class="webs__btn2"><a href="#webs" id="submit" target="_blank">Выбрать курс</a></button>
+        </div>
           </div>
-          </div>
-
-        <img class="astrologer_foto"
-          src="./assets/images/foto.svg"
-          alt="photo of an astrologer"/>
         </div>
 
         <img class="astrologer_ticker"
-            src="./assets/images/line.svg"
+            src="./assets/images/line1.svg"
             alt="ticker"/>
       </div>
-
       <!-- Экран 2 Отзывы-->
-
-      <!-- Экран 3 Услуги -->
-
-      <!-- Экран 4 Вебинары -->
-      <div class="screen_4">
+      <div id="reviews" class="screen_2">
         <div>
-          <h1 class="screen_4__title">ВЕБИНАРЫ</h1>
+          <p class="screen_2__title">Отзывы</p>
         </div>
+        <div class="screen_2__reviews">
+        <input checked type="radio" name="resond" id="desktop" />
+        <article id="slider">
+          <input type="radio" name="slider" id="switch1" />
+          <input type="radio" name="slider" id="switch2" />
+          <input type="radio" name="slider" id="switch3" />
+          <div id="slides">
+            <div id="overflow">
+              <div class="image">
+                <article>
+                  <img src="./assets/images/review_slide_1.svg" alt="feedback" />
+                </article>
+                <article>
+                  <img src="./assets/images/review_slide_2.svg" alt="feedback" />
+                </article>
+                <article>
+                  <img src="./assets/images/review_slide_3.svg" alt="feedback" />
+                </article>
+              </div>
+            </div>
+          </div>
+          <div id="controls">
+            <label for="switch1"></label>
+            <label for="switch2"></label>
+            <label for="switch3"></label>
+          </div>
+          <div id="active">
+            <label for="switch1"></label>
+            <label for="switch2"></label>
+            <label for="switch3"></label>
+          </div>
+        </article>
+      </div></div>
+      <!-- Экран 3 Услуги -->
+        <div id="services" class="service">
+          <div class="part1">
+            <div class="service_title">
+              УСЛУГИ
+             </div>
+             <div class="service_option"> 
+             <a href="https://payform.ru/8r3A7Fp" id="button_service" target="_blank"> взрослый финансовый разбор</a>
+             </div>
+             <div class="service_option">
+              <a href="https://payform.ru/8r3A7Fp" id="button_service" target="_blank"> общий взрослый разбор</a>
+             </div>
+             <div class="service_option">
+              <a href="https://payform.ru/8r3A7Fp" id="button_service" target="_blank">детский разбор</a>
+             </div>
+             
+             <div class="service_option">
+              <a href="https://payform.ru/403A7CQ" id="button_service" target="_blank">краткий разбор по астропсихологии</a>
+             </div>
+             <div class="service_option">
+              <a href="https://payform.ru/cn3A7Ht" id="button_service" target="_blank">знакомство с астропсихологией (вебинар + методичка)</a>
+             </div> 
+             <div class="service_option">
+              <a href="https://payform.ru/f73A7IO/" id="button_service" target="_blank">полный курс по астропсихологии с поддержкой и сертификатом </a>
+             </div> 
+              
+              <button class="service__btn"><a href="https://wa.me/+79290432129" id="submit" target="_blank">Заказать консультацию</a></button>
+            </div>
+            <div class="service_planet">
+              <img src="/assets/images/Rectangle 131.svg" width="150%" alt="planet">
+            </div>
+          </div>
+      <!-- Экран 4 Вебинары -->
+      <div id="webs" class="screen_4">
+        <div>
+          <p class="screen_4__title">ВЕБИНАРЫ</p>
+               </div>
         <div class="screen_4__webs">
           <div class="webs__item">
             <img
@@ -59,26 +128,13 @@
               alt="an image of clouds"
             />
             <div class="webs__content">
-              <h2 class="webs__title">Полный курс по Астропсихологии с нуля</h2>
+              <h2 class="webs__title">Полный курс по астропсихологии с нуля</h2>
               <p class="webs__descr">
-                Осваиваем астрологическую базу, а также науку в которой
-                совмещены сразу астрология+психология. Вы научитесь читать
-                любого человека насквозь, зная только дату его рождения (время
-                рождения и город знать не обязательно), сможете заглянуть внутрь
-                человека, понять его сильные и слабые стороны, предназначение, в
-                каком направлении двигаться и развиваться, какая вторая
-                половинка подходит человеку, также пройдём тему по психосоматике
-                и как избежать заболеваний, или максимально их скомпенсировать.
-                Сможете помогать себе и своим близким, а также зарабатывать на
-                этом, помогая другим людям.<br />
-                Астрология давно пользуется популярностью, но со сменой эпохи
-                она будет только набирать обороты в ближайшие 20 лет Курс можно
-                приобрести как сразу, так и по отдельным модулям.
+                На курсе вы освоите астрологическую базу, а также науку, объединяющую в себе астрологию и психологию. Вы научитесь “читать” любого человека как книгу, зная всего лишь дату его рождения. Вы сможете заглянуть “внутрь” человека, понять его сильные и слабые стороны, его предназначение в жизни и подсказать, в каком направлении ему следует двигаться и развиваться. Кроме того, вы сможете безошибочно определить, какой тип личности подойдет ему в качестве идеальной второй половинки. Во время обучения вы узнаете о психосоматике и о том, как избежать заболеваний или максимально их “скомпенсировать”. Вам откроется возможность не только помогать себе и своим близким, но и обеспечить себе финансовую независимость, помогая другим. Не секрет, что в последние годы интерес к астрологии растет и в ближайшие 20 лет в связи со сменой эпох популярность науки будет только набирать обороты. <br>*  Вы можете приобрести как весь курс целиком, так и интересующие вас модули по отдельности. 
               </p>
               <div>
-                <button class="webs__btn"><a href="#" id="submit" target="_blank">Оставить заявку</a></button>
+                <button class="webs__btn"><a href="https://wa.me/+79290432129?text=Здравствуйте! Хочу записаться на консультацию." id="submit" target="_blank">Оставить заявку</a></button></a>
               </div>
-
             </div>
           </div>
           <div class="webs__item">
@@ -90,10 +146,10 @@
             <div class="webs__content">
               <h2 class="webs__title">Тренинг по финансовой астрологии</h2>
               <p class="webs__descr">
-                Также можно приобрести отдельный тренинг по финансовой астрологии, чтобы понять в каких сферах развиваться и что помогает увеличивать доход.
+                Вы можете записаться на участие в тренинге по финансовой астрологии. Полученные знания помогут вам понять в каких сферах жизни следует развиваться и что поможет увеличить ваш доход.
               </p>
               <div>
-                <button class="webs__btn"><a href="#" id="submit" target="_blank">Оставить заявку</a></button>
+                <button class="webs__btn"><a href="https://wa.me/+79290432129?text=Здравствуйте! Хочу записаться на консультацию." id="submit" target="_blank">Оставить заявку</a></button></a>
               </div>
 
             </div>
@@ -107,10 +163,10 @@
             <div class="webs__content">
               <h2 class="webs__title">Интенсив "Зажги свою Венеру"</h2>
               <p class="webs__descr">
-                Интенсив "Зажги свою Венеру" на котором мы  прокачиваем женственность, подбираем питание, хобби опираясь именно на ваши данные, которые даны вам на момент вашего рождения. А не просто шаблонные диеты, которые многим могут не подходить из-за особенностей организма. Интенсивность проходит в формате фокус группы, где я после анализа ваших астрологических данных подбираю вам программу исходя из Ваших потребностей. На интенсиве мы работаем как с внутренним состоянием, так и с внешним, подбирая питание и виды спорта.
+                Интенсив “Зажги свою Венеру” подходит для тех, кто хочет раскрыть свою женственность, подобрать питание, выбрать вид спорта или интересное и полезное хобби. На основе данных о вашем рождении вы сможете составить диету с учетом индивидуальных особенностей вашего организма. <br>* Формат “интенсив” подразумевает работу в фокус-группе. На основе личных астрологических данных подбирается индивидуальная программа обучения с учетом ваших потребностей. 
               </p>
               <div>
-                <button class="webs__btn"><a href="#" id="submit" target="_blank">Оставить заявку</a></button>
+                <button class="webs__btn"><a href="https://wa.me/+79290432129?text=Здравствуйте! Хочу записаться на консультацию." id="submit" target="_blank">Оставить заявку</a></button></a>
               </div>
               </div>
           </div>
@@ -121,6 +177,33 @@
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer id="contacts" class="footer">
+    <div class="contacts_divers">
+      <label for="phone" class="phone">
+        Телефон:<br />
+        <span class="number">+7 929 043-21-29</span>
+      </label>
+      <label for="phone" class="mail">
+        E-Mail:<br />
+        <span class="mail_name">Sapunova_yuliya@mail.ru</span>
+      </label>
+      <div class="all-symbols">
+        <div class="icon_1">
+          <a href="#"><img src="./assets/images/icon_vk.svg" alt="VKontakte"></a>
+        </div>
+        <div class="icon_2">
+          <a href="https://wa.me/+79290432129?text=Здравствуйте! Хочу записаться на консультацию." target="_blank"><img src="./assets/images/icon_whatsapp.svg" alt="whatsapp"></a>
+        </div>
+        <div class="icon_3">
+          <a href="https://t.me/astrosapunova" target="_blank"><img src="./assets/images/icon_tg.svg" alt="Telegramm"></a>
+        </div>
+      </div>
+    </div>
+    <hr width="100%"/>
+    <div class="rules">
+      <p class="rights">© 2000-2023. Все права защищены</p>
+      <a class="policy" href="#">Политика конфиденциальности</a>
+    </div>
+  </footer>
   </body>
 </html>
