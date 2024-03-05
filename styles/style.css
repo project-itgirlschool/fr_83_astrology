@@ -7,56 +7,52 @@ body {
   background-color: rgba(242, 242, 236, 1);
   color: #827e90;
   font-family: "Ubuntu", sans-serif;
-  min-width: 80em;
+  max-width: 100vw; /*Всем блокам присвоила max-width 100vw*/
   overflow-x: hidden;
 }
 /* Стили для header */
 header {
+  /*Перевела pix в em*/
   display: grid;
   grid-template-areas: "logo menu";
   justify-content: space-between;
   align-items: center;
-  width: 1230px;
-  height: 31px;
-  margin-top: 46px;
-  margin-left: 231px;
+  width: 76.8em;
+  height: 1.9em;
+  margin-top: 2.9em;
+  margin-left: 14.4em;
 }
-
 .logo {
   grid-area: "logo";
-  width: 189px;
-  height: 31px;
+  width: 11.8em;
+  height: 1.9em;
 }
-
 .menu {
   display: grid;
   grid-area: "menu";
   grid-template-columns: repeat(6, auto);
-  width: 850px;
-  height: 18px;
+  width: 53em;
+  height: 1.1em;
   list-style: none;
 }
-
 nav ul li a {
   display: grid;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 1.1em;
   text-decoration: none;
   list-style: none;
   color: #9c8876;
 }
-
 nav ul li a:hover {
   color: #827e90;
 }
-
 /* Стили для экрана 1 Астролог Юлия Сапунова */
 .screen_1 {
   background-image: url("../assets/images/bg_screen1.svg");
   background-size: cover;
   object-fit: cover;
   background-position: center;
-  width: 100em;
+  max-width: 100vw;
   height: 52em;
   color: rgba(156, 136, 118, 1);
 }
@@ -120,7 +116,7 @@ nav ul li a:hover {
 }
 /* Стили для экрана 2 Отзывы */
 .screen_2 {
-  width: 100vw;
+  max-width: 100vw;
   height: 58em;
 }
 .screen_2__title {
@@ -151,7 +147,7 @@ nav ul li a:hover {
   overflow: hidden;
 }
 article img {
-  width: 100%;
+  width: 80%;
 }
 #desktop:checked ~ #slider {
   max-width: 87em;
@@ -180,7 +176,7 @@ label,
 a {
   cursor: pointer;
 }
-.screen_2__feedback input {
+.screen_2__reviews input {
   display: none;
 }
 #switch1:checked ~ #slides .image {
@@ -230,13 +226,12 @@ a {
 /* Стили для экрана 3 Услуги */
 .service {
   display: grid;
-  width: 100%;
+  max-width: 100vw;
   grid-template-columns: 1fr 1fr;
   background-color: #f2f2ec;
-  padding-left: 15em;
+  padding-left: 9em; /*Уменьшила отсуп вровень с экраном 1*/
 }
 .service_title {
-  padding-top: 1em;
   font-size: 3.1em;
   font-weight: bold;
   padding-bottom: 1em;
@@ -249,12 +244,13 @@ a {
 }
 .part1 {
   grid-column: 1;
-  padding-right: 5em;
+  padding-right: 1em;
 }
 .service_planet {
-  width: 40%;
+  width: 43%; /*Немного увеличила планету*/
   grid-column: 2;
-  padding-top: 3em;
+  padding-top: 7em; /*Сдвинула планету немного ниже и правее*/
+  padding-left: 7em;
 }
 .service__btn {
   width: 16.2em;
@@ -292,7 +288,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  max-width: 100vw;
   height: 125em;
   padding: 0 1em;
 }
@@ -312,7 +308,7 @@ a {
 }
 .webs__item {
   display: flex;
-  width: 79em;
+  width: 81em;
   height: 27em;
   border-radius: 0.6em;
   box-shadow: 0px 0px 60px 0px #1626461a;
@@ -393,70 +389,81 @@ a {
 .webs__btn_info:focus {
   background-color: #9c88767a;
 }
-
 /* Стили для footer */
-
+/*Перевела px в em*/
 footer {
   display: grid;
-  width: 100vw;
-  height: 240px;
+  max-width: 100vw;
+  height: 15em;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 12.5em;
 }
-
 .contacts_divers {
   display: grid;
   justify-content: space-evenly;
   width: 100vw;
-  height: 90px;
+  height: 5.6em;
   grid-template-columns: repeat(3, auto);
   color: #382d62;
+  align-content: flex-start;
 }
-
 .number,
 .mail_name {
   font-weight: 600;
   font-size: larger;
 }
-
-.all-symbols {
-  width: 100px;
-  height: 40px;
-  position: relative;
-  color: #382d62;
-}
-
 hr {
   border: none; /* Убираем границу */
   background-color: #382d62;
-  height: 1px; /* Толщина линии */
+  height: 0.006em; /* Толщина линии */
   opacity: 30%;
 }
-
 .rules {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-evenly;
   align-items: center;
 }
-
 .rights {
   color: #382d62;
 }
-
 .policy {
   font-weight: 700;
   font-size: 1em;
   color: #382d62;
   text-decoration: none;
 }
-
-.all-symbols{
+.all-symbols {
   display: grid;
-  width: 108px;
-  height: 40px;
-  
+  width: 6.7em;
+  height: 2.5em;
 }
-
-/* Другие стили и классы */
+.all-symbols {
+  display: flex;
+  justify-content: center;
+  width: 11em;
+  height: 2.5em;
+  position: relative;
+  color: #382d62;
+}
+.icon_1 {
+  width: 2.5em;
+  height: 2.5em;
+  position: absolute;
+  z-index: 2;
+}
+.icon_2 {
+  width: 2.5em;
+  height: 2.5em;
+  position: absolute;
+  z-index: 1;
+  right: 2em;
+}
+.icon_3 {
+  width: 2.5em;
+  height: 2.5em;
+  position: absolute;
+  right: -0.18em;
+  z-index: 0;
+}
